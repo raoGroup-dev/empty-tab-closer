@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Close Empty Tabs",
+  "version": "1.0",
+  "description": "Automatically closes empty or newly opened blank tabs after 5 seconds.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
